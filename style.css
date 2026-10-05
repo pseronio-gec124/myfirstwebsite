@@ -1,0 +1,1709 @@
+body{
+    background-image: 
+      ulinear-gradient(
+        rgba (255, 240, 248, 0.78)
+        rgba (255, 255, 255, 0.88)
+      ),
+      url("PHOTOS/BackGround 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #6b3a56;
+
+    font-family: Cambria, Georgia, "Times New Roman", serif;
+
+    min-height: 100vh;
+}
+h1{
+    color: #d45b91;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 70px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    text-shadow:
+        0 3px 10px rgba(212, 91, 145, 0.25);
+
+    margin: 50px 20px 30px;
+}
+h2 {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    letter-spacing: 1px;
+}
+h3 {
+    color: #b94678;
+}
+.header {
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            90deg,
+            #d95c96,
+            #ee8fbb,
+            #d95c96
+        );
+
+    padding: 8px 25px;
+
+    box-shadow:
+        0 4px 15px rgba(180, 70, 120, 0.25);
+
+    border-bottom:
+        2px solid rgba(255, 255, 255, 0.8);
+}
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    float: left;
+
+    color: white;
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    letter-spacing: 1px;
+
+    padding: 12px;
+
+    text-decoration: none;
+
+    text-shadow:
+        0 2px 5px rgba(120, 40, 80, 0.3);
+  }
+  .header a {
+    float: left;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 12px 15px;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    line-height: 25px;
+
+    border-radius: 20px;
+
+    font-family:Arial,
+        Helvetica,
+        sans-serif;
+
+    font-weight: bold;
+
+    margin: 4px;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+
+    background-color: white;
+
+    color: #d45b91;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 4px 12px rgba(255, 255, 255, 0.35);
+  }
+  
+  .header a.active {
+
+    background-color: white;
+
+    color: #c94f86;
+
+    box-shadow:
+        0 3px 10px rgba(255, 255, 255, 0.35);
+  }
+
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+  .header img {
+    height: 50px;
+
+    width: 50px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid white;
+
+    box-shadow:
+        0 0 12px rgba(255, 255, 255, 0.8);
+  }
+  section {
+    max-width: 1100px;
+
+    margin: 60px auto;
+
+    padding: 50px;
+
+    background-color:
+        rgba(255, 255, 255, 0.82);
+
+    border-radius: 25px;
+
+    border:
+        1px solid rgba(255, 183, 211, 0.8);
+
+    box-shadow:
+        0 10px 35px rgba(194, 86, 133, 0.15);
+
+    backdrop-filter: blur(5px);
+  }
+  section h1 {
+    font-size: 65px;
+
+    color: #d45b91;
+
+    margin-top: 20px;
+  }
+  p {
+    color: #71465e;
+
+    font-family:
+        Cambria,
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+  } 
+  #content {
+
+    color: #7a3d5c;
+
+    text-align: justify;
+
+    font-family:
+        Cambria,
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 24px;
+
+    line-height: 1.7;
+
+    padding: 20px;
+  }
+  button,
+.btn {
+
+    background:
+        linear-gradient(
+            135deg,
+            #e76fa5,
+            #d14f88
+        );
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 15px rgba(205, 75, 130, 0.25);
+
+    transition: 0.3s ease;
+  }
+  button:hover,
+.btn:hover {
+
+    background:
+        linear-gradient(
+            135deg,
+            #d14f88,
+            #bd3f75
+        );
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 8px 20px rgba(205, 75, 130, 0.35);
+}
+.card,
+.service {
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    border:
+        1px solid #f2b5cf;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    margin: 20px 0;
+
+    box-shadow:
+        0 6px 20px rgba(190, 74, 125, 0.12);
+
+    transition: 0.3s ease;
+}
+.card:hover,
+.service:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 25px rgba(190, 74, 125, 0.2);
+
+    border-color: #df6c9f;
+}
+a {
+    color: #c84f86;
+}
+
+a:hover {
+    color: #a9366c;
+}
+  .footer {
+
+    width: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            #d95c96,
+            #ee8fbb,
+            #d95c96
+        );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 18px;
+
+    box-shadow:
+        0 -4px 15px rgba(180, 70, 120, 0.2);
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 15px;
+}
+.footer strong,
+.footer span {
+    color: white;
+}
+.hero,
+.magic-section {
+
+    position: relative;
+}
+@media screen and (max-width: 800px) {
+
+    .header {
+        padding: 10px;
+
+        text-align: center;
+    }
+
+
+    .header a.logo {
+        float: none;
+
+        display: block;
+
+        text-align: center;
+
+        margin-bottom: 5px;
+    }
+
+
+    .header-Right {
+        float: none;
+
+        display: flex;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+
+    .header a {
+        font-size: 14px;
+
+        padding: 9px 11px;
+    }
+
+
+    section {
+        margin: 30px 15px;
+
+        padding: 30px 20px;
+    }
+
+
+    h1,
+    section h1 {
+        font-size: 42px;
+    }
+
+
+    #content {
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .header-Right {
+        display: block;
+    }
+
+
+    .header a {
+        display: inline-block;
+
+        float: none;
+    }
+
+
+    h1,
+    section h1 {
+        font-size: 34px;
+    }
+
+
+    section {
+        padding: 25px 15px;
+    }
+}
+.small-title {
+    color: #d45b91;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+.hero {
+    text-align: center;
+}
+
+
+.hero h2 {
+    color: #c84f86;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.hero p {
+    max-width: 750px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+.magic-section {
+    text-align: center;
+}
+
+
+.magic-section > h2 {
+    margin-bottom: 35px;
+}
+
+
+.quote-section {
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 220, 235, 0.85),
+            rgba(255, 255, 255, 0.9)
+        );
+}
+
+
+.quote-section p {
+    max-width: 750px;
+
+    margin: 15px auto;
+
+    text-align: center;
+
+    font-style: italic;
+}
+
+
+.quote-section p:first-of-type {
+    color: #c84f86;
+
+    font-size: 25px;
+
+    font-weight: bold;
+}
+.about-hero {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+
+    text-align: left;
+}
+
+
+
+
+.about-text {
+    flex: 1;
+}
+
+
+.about-text h1 {
+    text-align: left;
+
+    margin-left: 0;
+
+    margin-right: 0;
+}
+
+
+.about-text h2 {
+    text-align: left;
+
+    margin-bottom: 25px;
+}
+
+
+.about-text p {
+    text-align: left;
+}
+.about-photo {
+    flex: 0 0 320px;
+
+    text-align: center;
+}
+
+
+.photo-frame {
+    width: 280px;
+
+    height: 280px;
+
+    margin: auto;
+
+    padding: 8px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #f3a7c8,
+            #ffffff,
+            #df6c9f
+        );
+
+    box-shadow:
+        0 0 20px rgba(212, 91, 145, 0.25),
+        0 10px 30px rgba(190, 74, 125, 0.18);
+}
+
+
+.photo-frame img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    display: block;
+}
+
+
+.photo-caption {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 17px;
+
+    font-style: italic;
+
+    margin-top: 15px;
+}
+@media screen and (max-width: 800px) {
+
+    .about-hero {
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        gap: 30px;
+    }
+
+
+    .about-text h1,
+    .about-text h2,
+    .about-text p {
+        text-align: center;
+    }
+
+
+    .about-photo {
+        flex: none;
+
+        width: 100%;
+    }
+
+
+    .photo-frame {
+        width: 230px;
+
+        height: 230px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .photo-frame {
+        width: 200px;
+
+        height: 200px;
+    }
+
+
+    .about-text h1 {
+        font-size: 38px;
+    }
+
+}
+.resume-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 25px 100px;
+}
+
+
+/* Resume Introduction */
+
+.resume-intro {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.resume-intro h1 {
+    margin-bottom: 20px;
+}
+
+.resume-intro p:last-child {
+    max-width: 750px;
+    margin: auto;
+}
+
+
+/* Resume Cards */
+
+.resume-card {
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid #f3c1d8;
+    border-radius: 25px;
+    padding: 35px;
+    margin-bottom: 30px;
+
+    box-shadow:
+        0 10px 30px rgba(190, 74, 125, 0.12);
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Decorative top line */
+
+.resume-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #f3a7c8,
+            #ffffff,
+            #df6c9f
+        );
+}
+
+
+/* Resume headings */
+
+.resume-card h2 {
+    color: #c84f86;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resume-card h3 {
+    color: #c84f86;
+    margin-bottom: 10px;
+}
+
+
+/* Resume text */
+
+.resume-card p {
+    color: #6f5261;
+    line-height: 1.8;
+    text-align: left;
+}
+
+
+/* Personal information */
+
+.resume-role {
+    color: #d45b91 !important;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.resume-contact {
+    margin-top: 20px;
+}
+
+.resume-contact p {
+    margin: 8px 0;
+}
+
+
+/* Resume items */
+
+.resume-item {
+    padding: 10px 0;
+}
+
+.resume-highlight {
+    color: #d45b91 !important;
+    font-weight: bold;
+}
+
+
+/* Lists */
+
+.resume-list {
+    padding-left: 25px;
+    color: #6f5261;
+    line-height: 1.8;
+}
+
+.resume-list li {
+    margin-bottom: 8px;
+}
+
+
+/* Skills Grid */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.skill-box {
+    background:
+        linear-gradient(
+            135deg,
+            #fff8fc,
+            #ffeaf3
+        );
+
+    border: 1px solid #f3c1d8;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+.skill-box h3 {
+    margin-top: 0;
+}
+
+.skill-box ul {
+    padding-left: 20px;
+    color: #6f5261;
+    line-height: 1.8;
+}
+
+.skill-box li {
+    margin-bottom: 5px;
+}
+
+
+/* Strengths */
+
+.strengths {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.strengths span {
+    display: inline-block;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #ffe4f0
+        );
+
+    border: 1px solid #f1b5d0;
+    border-radius: 30px;
+
+    padding: 12px 20px;
+
+    color: #c84f86;
+    font-weight: bold;
+
+    box-shadow:
+        0 5px 15px rgba(190, 74, 125, 0.08);
+}
+
+
+/* Certifications */
+
+.note {
+    color: #a77a8d !important;
+    font-style: italic;
+}
+
+.placeholder-item {
+    background: #fff7fb;
+    border-left: 4px solid #df6c9f;
+
+    padding: 15px 20px;
+    margin-top: 15px;
+
+    border-radius: 10px;
+}
+
+.placeholder-item p {
+    margin: 5px 0;
+}
+
+
+/* Career Goals */
+
+.goal-card {
+    text-align: center;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 225, 239, 0.95),
+            rgba(255, 255, 255, 0.95)
+        );
+}
+
+.goal-card h2 {
+    text-align: center;
+}
+
+.goal-card p {
+    max-width: 800px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+/* Inspirational Quote */
+
+.magic-quote {
+    max-width: 800px;
+    margin: 30px auto 5px;
+
+    padding: 25px;
+
+    background: rgba(255, 255, 255, 0.75);
+
+    border: 1px solid #f3b3cf;
+    border-radius: 20px;
+
+    color: #c84f86;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media screen and (max-width: 800px) {
+
+    .resume-page {
+        padding: 40px 18px 100px;
+    }
+
+    .resume-card {
+        padding: 25px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .strengths {
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .resume-intro h1 {
+        font-size: 40px;
+    }
+
+    .resume-card {
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    .resume-card h2 {
+        font-size: 25px;
+    }
+
+    .strengths span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .magic-quote {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+}
+.services-page {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px 25px 100px;
+}
+
+
+/* Services Introduction */
+
+.services-intro {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.services-intro h1 {
+    margin-bottom: 20px;
+}
+
+.services-intro p:last-child {
+    max-width: 750px;
+    margin: auto;
+}
+
+
+/* Services Grid */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+
+/* Service Card */
+
+.service-card {
+    position: relative;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.98),
+            rgba(255, 239, 247, 0.96)
+        );
+
+    border: 1px solid #f3c1d8;
+    border-radius: 25px;
+
+    padding: 35px 28px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 30px rgba(190, 74, 125, 0.12);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* Card Hover */
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 18px 35px rgba(190, 74, 125, 0.20);
+}
+
+
+/* Decorative Top Border */
+
+.service-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 4px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #f3a7c8,
+            #ffffff,
+            #df6c9f
+        );
+
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Service Icon */
+
+.service-icon {
+    width: 75px;
+    height: 75px;
+
+    margin: 5px auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #ffe1ee
+        );
+
+    border: 2px solid #f3b5d0;
+
+    font-size: 32px;
+
+    box-shadow:
+        0 5px 15px rgba(190, 74, 125, 0.10);
+}
+
+
+/* Service Heading */
+
+.service-card h2 {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Service Paragraph */
+
+.service-card > p {
+    color: #6f5261;
+
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+/* Service List */
+
+.service-card ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 20px 0;
+
+    text-align: left;
+}
+
+.service-card li {
+    color: #755766;
+
+    padding: 7px 0;
+
+    border-bottom: 1px solid #f5d7e5;
+}
+
+.service-card li:last-child {
+    border-bottom: none;
+}
+
+.service-card li::before {
+    content: "✦ ";
+
+    color: #d45b91;
+
+    font-weight: bold;
+}
+
+
+/* Student Skill Note */
+
+.service-note {
+    display: inline-block;
+
+    margin-top: 10px;
+
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    background: #fff0f7;
+
+    color: #c84f86;
+
+    font-size: 12px;
+
+    font-style: italic;
+}
+
+
+/* =========================================
+   MY APPROACH
+========================================= */
+
+.service-approach {
+    margin-top: 70px;
+
+    padding: 50px 35px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 224, 238, 0.90),
+            rgba(255, 255, 255, 0.95)
+        );
+
+    border: 1px solid #f3c1d8;
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 10px 30px rgba(190, 74, 125, 0.10);
+}
+
+
+.service-approach h2 {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    margin-bottom: 20px;
+}
+
+
+.service-approach > p:not(.small-title) {
+    max-width: 750px;
+
+    margin: auto;
+
+    color: #6f5261;
+
+    line-height: 1.8;
+}
+
+
+/* Approach Items */
+
+.approach-items {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-top: 35px;
+}
+
+
+.approach-item {
+    background: rgba(255, 255, 255, 0.75);
+
+    border: 1px solid #f4c9dc;
+
+    border-radius: 20px;
+
+    padding: 25px;
+}
+
+
+.approach-item > span {
+    font-size: 30px;
+}
+
+
+.approach-item h3 {
+    color: #c84f86;
+
+    margin: 12px 0;
+}
+
+
+.approach-item p {
+    color: #765765;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+
+/* =========================================
+   SERVICES QUOTE
+========================================= */
+
+.services-quote {
+    margin-top: 45px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    background: #fff8fc;
+
+    border: 1px solid #f3c1d8;
+
+    border-radius: 25px;
+}
+
+
+.services-quote h2 {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    margin-bottom: 15px;
+}
+
+
+.services-quote p {
+    max-width: 700px;
+
+    margin: auto;
+
+    color: #765765;
+
+    font-style: italic;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media screen and (max-width: 900px) {
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .approach-items {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .services-page {
+        padding: 40px 18px 100px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 30px 22px;
+    }
+
+    .service-approach {
+        padding: 35px 20px;
+    }
+
+}
+.testimonial-page {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px 25px 100px;
+}
+.testimonial-intro {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.testimonial-intro h1 {
+    margin-bottom: 20px;
+}
+
+.testimonial-intro p:last-child {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.8;
+}
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.testimonial-card {
+    position: relative;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.98),
+            rgba(255, 239, 247, 0.95)
+        );
+
+    border: 1px solid #f3c1d8;
+    border-radius: 25px;
+
+    padding: 35px;
+
+    box-shadow:
+        0 10px 30px rgba(190, 74, 125, 0.12);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* Hover Effect */
+
+.testimonial-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 18px 35px rgba(190, 74, 125, 0.18);
+}
+
+
+/* Decorative Top Border */
+
+.testimonial-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 15%;
+
+    width: 70%;
+    height: 4px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #f3a7c8,
+            #ffffff,
+            #df6c9f
+        );
+
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Quote Symbol */
+
+.quote-symbol {
+    color: #df6c9f;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 70px;
+
+    line-height: 0.7;
+
+    height: 40px;
+
+    opacity: 0.65;
+}
+
+
+/* Testimonial Text */
+
+.testimonial-text {
+    color: #6f5261;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 17px;
+
+    font-style: italic;
+
+    line-height: 1.8;
+
+    margin: 20px 0 30px;
+
+    text-align: left;
+}
+.testimonial-author {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    border-top: 1px solid #f3d5e3;
+
+    padding-top: 20px;
+}
+
+
+.author-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #ffe1ee
+        );
+
+    border: 1px solid #f2b5d0;
+
+    font-size: 22px;
+}
+
+
+.testimonial-author h3 {
+    color: #c84f86;
+
+    margin: 0 0 5px;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+}
+
+
+.testimonial-author p {
+    color: #a4778c;
+
+    margin: 0;
+
+    font-size: 14px;
+}
+.testimonial-reflection {
+    margin-top: 70px;
+
+    padding: 50px 35px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 224, 238, 0.92),
+            rgba(255, 255, 255, 0.96)
+        );
+
+    border: 1px solid #f3c1d8;
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 10px 30px rgba(190, 74, 125, 0.10);
+}
+
+
+.testimonial-reflection h2 {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    margin-bottom: 20px;
+}
+
+
+.testimonial-reflection > p:not(.small-title) {
+    max-width: 750px;
+
+    margin: 15px auto;
+
+    color: #6f5261;
+
+    line-height: 1.8;
+}
+
+
+/* Reflection Quote */
+
+.reflection-quote {
+    max-width: 700px;
+
+    margin: 30px auto 0;
+
+    padding: 25px;
+
+    background: rgba(255, 255, 255, 0.75);
+
+    border: 1px solid #f2b5d0;
+
+    border-radius: 20px;
+
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-style: italic;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+}
+.testimonial-ending {
+    margin-top: 45px;
+
+    padding: 45px 25px;
+
+    text-align: center;
+
+    background: #fff8fc;
+
+    border: 1px solid #f3c1d8;
+
+    border-radius: 25px;
+}
+
+
+.testimonial-ending h2 {
+    color: #c84f86;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    margin-bottom: 15px;
+}
+
+
+.testimonial-ending p {
+    max-width: 700px;
+
+    margin: 0 auto 25px;
+
+    color: #765765;
+
+    line-height: 1.8;
+}
+.testimonial-button {
+    display: inline-block;
+
+    padding: 13px 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d45b91,
+            #c84f86
+        );
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    box-shadow:
+        0 7px 18px rgba(190, 74, 125, 0.20);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.testimonial-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 22px rgba(190, 74, 125, 0.28);
+}
+@media screen and (max-width: 800px) {
+
+    .testimonial-page {
+        padding: 40px 18px 100px;
+    }
+
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-reflection {
+        padding: 40px 25px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .testimonial-intro h1 {
+        font-size: 40px;
+    }
+
+    .testimonial-card {
+        padding: 28px 22px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+    }
+
+    .testimonial-reflection {
+        padding: 35px 20px;
+    }
+
+    .reflection-quote {
+        font-size: 16px;
+    }
+
+}
